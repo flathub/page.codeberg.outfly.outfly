@@ -1,6 +1,6 @@
 app-id: page.codeberg.outfly.outfly
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
@@ -33,7 +33,7 @@ modules:
       - cargo-sources.json
       - type: git
         url: https://codeberg.org/outfly/outfly
-        tag: v0.14.0
+        tag: v0.15.0
       - type: file
-        url: https://codeberg.org/outfly/outfly/raw/commit/b8d5acb31da2932ce7b15f3deac62c6a6c8acac1/build/flatpak/metainfo.xml
-        sha256: efb3c65c82ae4f144449a4913c209da04e25267376b93c2f1fd64068c906f863
+        url: https://codeberg.org/outfly/outfly/raw/commit/354ba22117f2dadf0c022981e8b70a6eb664f25d/build/flatpak/metainfo.xml
+        sha256: 447294a0e235ed50659dec9a8f7e1d39e878f4d81fcae77dd00e6d5790d2c7d9
